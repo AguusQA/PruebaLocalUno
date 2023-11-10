@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Mi Primera Página Web Subida Desde VSC</title>
     <style>
-        /* Estilos para el título */
         h1 {
             font-family: 'Pacífico', cursive;
             font-size: 56px;
@@ -14,7 +13,6 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
-        /* Estilos para el párrafo */
         p {
             font-family: Georgia, serif;
             font-size: 18px;
@@ -24,7 +22,6 @@
             border-top-left-radius: 180px;
         }
 
-        /* Estilos para la imagen */
         img {
             display: block;
             margin: 0 auto;
@@ -42,10 +39,13 @@
             background-position: 0 0;
         }
 
-        /* Estilos para el menú de navegación */
+        /* Estilos para el menú de navegación superior */
         nav {
             background-color: #0044cc;
             text-align: center;
+            position: fixed; /* Fija el menú en la parte superior */
+            width: 100%; /* Ocupa todo el ancho de la pantalla */
+            z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
         }
 
         ul {
@@ -65,12 +65,26 @@
             font-weight: bold;
             font-size: 18px;
         }
+
+        /* Estilos para ocultar el menú de la izquierda */
+        .left-menu {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <h1>Nastyl0lita World</h1>
     
-    
+    <!-- Menú de navegación superior -->
+    <nav>
+        <ul>
+            <li><a href="#amenazas">Amenazas</a></li>
+            <li><a href="#memazos">Memazos</a></li>
+            <li><a href="#gatitos">Gatitos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido de las secciones -->
     <div id="amenazas">
         <h2>Amenazas</h2>
         <p>Contenido de la sección Amenazas...</p>
@@ -88,6 +102,11 @@
         <p>Contenido de la sección Gatitos...</p>
         <a href="https://www.tupaginaweb.com/gatitos">Ir a Gatitos</a>
     </div>
+
+    <!-- Menú de la izquierda (oculto) -->
+    <nav class="left-menu">
+        <!-- Contenido del menú de la izquierda... -->
+    </nav>
 
     <img src="https://raw.githubusercontent.com/AguusQA/PruebaLocalUno/main/images/brave_jKIBwYqTBJ.png" alt="imagen">
 </body>
