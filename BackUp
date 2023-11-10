@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Primera Página Web Subida Desde VSC</title>
+    <style>
+        h1 {
+            font-family: 'Pacífico', cursive;
+            font-size: 56px;
+            color: #0044cc;
+            text-align: center;
+            margin: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            color: #333;
+            text-align: left;
+            margin-left: 20px;
+            border-top-left-radius: 180px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: 450px;
+        }
+
+        body {
+            background-color: #faa0c7;
+            margin: 0;
+            overflow: hidden;
+            background-image: url('https://raw.githubusercontent.com/AguusQA/PruebaLocalUno/main/images/692eea2dc9af9c563e871b7089964f69.jpg');
+            background-size: 100%;
+            background-repeat: repeat;
+            background-position: 0 0;
+        }
+
+        nav {
+            background-color: #0044cc;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nastyl0lita World</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="#amenazas">Amenazas</a></li>
+            <li><a href="#memazos">Memazos</a></li>
+            <li><a href="#gatitos">Gatitos</a></li>
+        </ul>
+    </nav>
+
+    <div id="amenazas">
+        <h2>Amenazas</h2>
+        <p>Contenido de la sección Amenazas...</p>
+    </div>
+
+    <div id="memazos">
+        <h2>Memazos</h2>
+        <p>Contenido de la sección Memazos...</p>
+    </div>
+
+    <div id="gatitos">
+        <h2>Gatitos</h2>
+        <p>Contenido de la sección Gatitos...</p>
+    </div>
+
+    <img src="https://raw.githubusercontent.com/AguusQA/PruebaLocalUno/main/images/brave_jKIBwYqTBJ.png" alt="imagen">
+</body>
+</html>
