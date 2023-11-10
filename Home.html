@@ -19,24 +19,26 @@
             color: #333;
             text-align: left;
             margin-left: 20px;
-            border-top-left-radius: 180px;
+            /* Se ajusta el radio de borde */
+            border-top-left-radius: 8px;
         }
 
         img {
             display: block;
             margin: 0 auto;
-            width: 400px;
-            height: 450px;
+            width: 100%; /* Se ajusta la imagen para que sea responsive */
+            max-width: 400px; /* Se establece un tamaño máximo */
+            height: auto; /* Se mantiene la proporción de la imagen */
         }
 
         body {
-            background-color: #faa0c7;
+            background-color: #ffffff; /* Cambio de color de fondo para mejorar contraste */
             margin: 0;
             overflow: hidden;
             background-image: url('https://raw.githubusercontent.com/AguusQA/PruebaLocalUno/main/images/692eea2dc9af9c563e871b7089964f69.jpg');
-            background-size: 100%;
-            background-repeat: repeat;
-            background-position: 0 0;
+            background-size: cover; /* Cambio para cubrir todo el fondo */
+            background-repeat: no-repeat;
+            background-position: center center; /* Centrar la imagen de fondo */
         }
 
         /* Estilos para el menú de navegación superior */
@@ -98,6 +100,6 @@
         <a href="https://www.tupaginaweb.com/gatitos">Ir a Gatitos</a>
     </div>
 
-    <img src="https://raw.githubusercontent.com/AguusQA/PruebaLocalUno/main/images/brave_jKIBwYqTBJ.png" alt="imagen">
+    <img src="https://raw.githubusercontent.com/AguusQA/PruebaLocalUno/main/images/brave_jKIBwYqTBJ.png" alt="Gatito gracioso">
 </body>
 </html>
